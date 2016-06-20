@@ -1,0 +1,52 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2016-06-16T18:50:29+02:00
+
+====== Kapitel 2 ======
+Created Thursday 16 June 2016
+
+//Binomial expansion//
+{{./equation.png?type=equation}}
+Heraf kan det let aflæses, at Binomial fordelingen summerer op til 1.
+
+**2.2**
+
+//Fluctuations in the number of successes; for any fixed p, the normal approximation to the binomial(n,p) gets better and better as n gets larger.//
+
+//Fluctuations in the proportions of successes. For a binomial distribution we expect 	//{{./equation001.png?type=equation}}    //successes, where k is a small number (less than 4). The relative frequency of successes is therefore//
+{{./equation002.png?type=equation}}, 
+derudover ved vi, at
+ {{./equation003.png?type=equation}}
+
+Ud fra dette kan vi se, at hvis vi udfører et eksperiment med en sandsynlighed p, n gange, vil den relative frekvens gå mod p med en faktor én over kvadratrod n. Vi har med andre ord fundet frem til
+
+	//Square Root Law// :
+* //the number of successes will, with high probability, lie in a relatively small interval of numbers, centered on np, with width a moderate multiple of square root n on the numerical scale.//
+* //the proportion of successes will, with high probability, lie in a small interval centered on p, witth width a moderate multiple of 1 over square root n.//
+
+	//Law of Large Numbers://
+* //if n is large, the proportion of successes in n independent trials will, with overwhelming probability, be very close to p, the probability of success on each trial.//
+
+
+Confidence Intervals
+
+Worst Errors - de bruger p og sigma som variable til at afgøre, hvor god tilnærmelsen bliver.
+
+Skew-Normal - Bemærk in der er forskel på den funktion der tillægges, og den funktion man bruger, når der skal integreres (akkumulerede sandsynligheder).
+
+
+**2.4 - Poisson Approximation**
+
+For stort //n// og lille //p//. //np// holdes konstant i grænsen //n// gående mod uendelig og //p// gående mod 0. Dette er en perfekt Poisson fordeling. Ellers tilnærmer den en binomial fordeling for passende //n// og //p//.
+
+Hvorfor skulle man nogensinde bruge en Poisson fordeling i stedet for en binomial fordeling?
+
+Sandsynligheden for at der er mere end en succes i et kort tidsinterval er meget lille.
+
+Den virker ikke umiddelbart lettere at udregne.
+
+mean og SD...
+
+**2.5 - Random Sampling**
+
+Her benyttes confidence intervals.

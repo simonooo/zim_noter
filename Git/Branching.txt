@@ -1,0 +1,28 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2016-06-20T09:44:42+02:00
+
+====== Branching ======
+Created Monday 20 June 2016
+
+Git's killer feature
+I branching går man væk fra hovedprojektet og modificerer projektet uden at påvirke hovedprojektet.
+
+master er en sådan branch. Hver gang der foretages en commit, rykkes den frem og peger på den mest nylige version.
+
+lav en ny brach med git branch 'branch_name'. Her oprettes en branch der hvor du er. Du kan switche til en anden branch med git checkout 'branch_name'.
+
+du kan lave en ny branch. Gå over til denne branch. Arbejde videre på projektet og comitte det. Du kan nu gå tilbage til din master branch. Filerne bør nu se ud, som de var før du lavede ændringerne. 
+<<<<<<< HEAD
+husk at lukke og genåbne de pårørte filer, så indholdet vises i dets opdaterede form.
+
+git merge 'branch_name' tvinger en branch ind i master, så master nu peger på denne branch. Husk derefter at slette 'branch_name' da der ikke længere er brug for den: git branch -d 'branch_name'
+
+
+basic merge conflicts: man kan ikke ændre den samme fil på det samme sted.
+
+juuuu54545
+=======
+
+juuuu22
+>>>>>>> branch_test

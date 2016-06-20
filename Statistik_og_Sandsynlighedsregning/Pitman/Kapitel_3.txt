@@ -1,0 +1,8 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2016-06-18T09:02:34+02:00
+
+====== Kapitel 3 ======
+Created Saturday 18 June 2016
+
+SD for en vilkårlig fordeling angiver stadig, at sandsynligheden for at få noget mere end nogle få SDs væk fra mean er minimal. Det er præciseret i Chebychev's Theorem. (en ulighed)

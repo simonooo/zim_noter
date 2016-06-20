@@ -1,0 +1,27 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2016-06-16T10:57:08+02:00
+
+====== To Do ======
+Created Thursday 16 June 2016
+
+* sandsynlighedsregning
+* betinget optagelse
+* digital elektronik/VHDL/Xilinx installation
+* git
+* fitness
+* skat
+* aktier
+* asgers studentergave
+* sommerjob
+* vim - colorschemes
+* IRC
+todo: latex sandbox...
+su til overgang mellem uddannelser
+forretningsplan
+stationær
+trådløs kommunikation
+integralregning
+undersøg om jeg kan se data på maskinen der ikke er encryption pass på
+tor
+nemid nordnet

@@ -1,0 +1,29 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2016-06-16T11:06:22+02:00
+
+====== Kapitel 1 ======
+Created Thursday 16 June 2016
+
+**1.1 - Equally likely outcomes**
+
+//Probability is an extension of the idea of a proportion, or a ratio to a whole.//
+
+For //equally likely outcomes; honest, fair, unbiased://
+
+//Probability is proportion of outcomes: //
+				{{./equation.png?type=equation}}
+Sandsynlighed er således reduceret til et tælleproblem. Forbavsende ofte kan et problem omformuleres, så der er //equally likely outcomes//.
+
+Herudover introduceres //odds//, som en anden måde at opstille sandsynligheder. Et konkret eksempel viser hvordan //house percentage //udregnes. Det er alt sammen ligetil.
+
+
+**1.2**
+
+Her vises, hvordan sandsynligheder skal fortolkes i praktiske problemstillinger. Der fremlægges 2 fortolkninger;
+
+* //frequency interpretation//
+* //subjective interpretation//
+
+
+

@@ -1,0 +1,50 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2016-06-19T14:10:34+02:00
+
+====== Git ======
+Created Sunday 19 June 2016
+
+**GitHub**
+user: simonooo
+pass: Juuuuuuhuuuuuu5
+email: s123880@student.dtu.dk
+
+**Intro**
+Versionsstyringsværktøj. Bruges til at holde styr på ændringer i filer. Det er ikke kun forbeholdt kildekode. Et Version Control System (VCS) tillader; gå tilbage til tidligere filer, eller gå tilbage til et tidligere projekt. 
+
+Centralized VCS - til samarbejde med andre udviklere. Her opbevares det samlede filsystem på en enkelt server.
+
+Distributed VCS (f.eks. Git) - 
+
+Der findes flere programmer til versionsstyring. 
+
+
+**Git**
+Git opbevarer ikke ændringer i enkelte filer og derfra kan udregne hvordan det nuværende filsystem ser ud ved at akkumulere ændringerne, som visse andre VCS. I stedet tager den et snapshot. Det vil sige,
+at den gemmer hvordan alle filerne ser ud på et bestemt tidspunkt. Den laver så en reference til dette snapshot. Er en fil ikke ændret siden sidst, linkes til den gamle fil uden at lave et nyt snapshot af den fil. 
+
+Derfor er Git nærmest et mini filsystem og adskiller sig på den måde fra næsten alle andre VCS. Bl.a. er næsten alle operationer lokale. 
+
+Filer kan være i 3 kategorier; committed, modified og staged. 
+* Committed - filen er sikkert gemt i den lokale database
+* Modified - du har ændret filen og ikke committed endnu.
+* Staged - du har markeret en fil til at blive committed.
+
+Git gemmer alt data i Git directory. Det er dette der kopieres, når et repository klones ved et Git clone. 
+
+Workflow:
+* Ændr en fil i dit working directory
+* Stage den pågældende filer
+* Commit
+
+**First Time Setup: Git Config**
+Git har nogle configurationsvariable gemt forskellige steder, til at manipulere hvordan Git virker. De kan sættes 3 steder - for hele systemet, for den enkelte bruger og for det enkelte directory.
+Det gøres i terminalen med git config efterfulgt af hhv. --global, --system og intet flag for ændringer i det enkelte directory.
+
+Det første er at opsætte en identitet med navn og email. 
+
+
+
+
+

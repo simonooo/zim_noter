@@ -1,0 +1,57 @@
+Content-Type: text/x-zim-wiki
+Wiki-Format: zim 0.4
+Creation-Date: 2016-06-19T18:27:08+02:00
+
+====== Basic Commands ======
+Created Sunday 19 June 2016
+
+Du kan starte et Git projekt på to måder:
+* git init - opretter et .git directory i det pågældende directory. git add (-all -rekursivt) til at tilføje de enkelte filer til staging area. git commit -m 'navn' for commit.
+* git close - for at hente et .git directory fra en server. Her hentes hele historikken. Her oprettes et directory med projektets navn og inde i det directory oprettes et .git directory, hvor det bliver gemt. Herudover gemmes filerne også. Flere forskellige transfer protocols kan benyttes.
+
+En fil kan være enten tracked eller untracked (har du brugt git --add?). Efter clone kommandoen bliver alle filer automatisk added og er derfor tracked.
+
+
+git status fortæller hvilke filer er i hvilke kategorier.
+filen for den mest nylige staging er det der bliver gemt, når du laver en commit. Du stager ved at bruge git add - den har altså dobbelt betydning. Derudover kan du springe den over ved at bruge git commit -am 'navn'
+
+.gitignore kan bruges til at ignorere bestemte filer når du kører git status.
+
+git diff - kan bruges til at se de specifikke ændringer i filer og ikke bare navne på filer der er ændret, som git status. Her ser du hvad du har ændret uden at stage.
+git diff —staged (eller git diff --cached) bruges til at se de stagede ændringer siden sidste commit
+
+git log viser historikken. Her kan benyttes en masse flags.
+
+**undoing things**
+Det er ikke altid at undos kan laves om. Git gemmer ikke disse data.
+
+git commit --amend hvis du har rettelser til din sidste commit.
+
+
+**working with remotes**
+først tilføjes en remote som : git remote add 'alias' 'remote_url'
+herefter kloner man det
+herefter kan man bruge fetch for at hente nyere versioner der er kommet efter kloning.
+<<<<<<< HEAD
+=======
+Alternativt kan der bruges git push remote_url branch
+
+**tags**
+markerer bestemte vigtige punkter i udviklingen af projektet.
+
+**tips and tricks**
+autocompletion script
+aliases
+
+>>>>>>> branch_test
+
+
+
+
+
+
+
+
+
+
+
